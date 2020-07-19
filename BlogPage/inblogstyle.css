@@ -1,0 +1,86 @@
+.tm-navbar {
+  overflow: hidden;
+  background-color: #dcdcdc;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.tm-navbar a {
+  float: none;
+  display: inline-block;
+  color: #1c1f33;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: "EB Garamond", serif; 
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.tm-navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+html,
+body {
+  font-family: "Trebuchet MS", arial;
+  -webkit-font-smoothing: antialiased;
+  font-size: 18px;
+  background-color: #dcdcdc;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 200;
+  text-align: center;
+}
+
+.author-name {
+  display: block;
+  font-size: 0.9rem;
+  margin: 1rem 0 2rem;
+  text-align: center;
+  width: 100%;
+}
+.author-name span {
+  display: inline-block;
+  position: relative;
+}
+.author-name span:before, .author-name span:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  height: 1px;
+  width: 50px;
+}
+.author-name span:before {
+  background: -webkit-gradient(linear, left top, right top, from(transparent), to(#555));
+  background: linear-gradient(to right, transparent 0%, #555 100%);
+  left: -60px;
+}
+.author-name span:after {
+  background: -webkit-gradient(linear, right top, left top, from(transparent), to(#555));
+  background: linear-gradient(to left, transparent 0%, #555 100%);
+  right: -60px;
+}
+
+div {
+  margin: 0 auto;
+  width: 50%;
+}
+div p {
+  color: #555;
+  font-weight: 200;
+  line-height: 1.5;
+}
+div p:first-of-type:first-letter {
+  color: black;
+  display: inline-block;
+  float: left;
+  font-size: 5rem;
+  line-height: 0.95;
+  margin: 0 1rem -1rem 0;
+  padding: 0;
+}

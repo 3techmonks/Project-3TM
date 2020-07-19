@@ -1,0 +1,61 @@
+.tm-navbar {
+  overflow: hidden;
+  background-color: #dcdcdc;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.tm-navbar a {
+  float: none;
+  display: inline-block;
+  color: #1c1f33;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: "EB Garamond", serif; 
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.tm-navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.grey lighten-2{
+  background-color: #1c1f33,#eee,#ededed;
+}
+
+.fadedfx {
+  background-color: #fe5652;
+  visibility: hidden;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  visibility: visible !important;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
